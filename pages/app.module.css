@@ -1,0 +1,10 @@
+.hero {
+  @apply w-full h-36;
+
+  clip-path: url(#myClip);
+}
+
+.heart {
+  @apply w-10 h-10;
+  clip-path: url(#heart-path);
+}

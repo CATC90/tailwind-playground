@@ -1,7 +1,8 @@
 import Head from "next/head";
+import React from "react";
 import { Row } from "../components/row";
-import { Search } from "../components/Search";
-import { Table } from "../components/table";
+import { Search } from "../components/search";
+import { Table } from "../components/table-wrapper";
 import { TableBody } from "../components/table-body";
 import { TableHeader } from "../components/table-header";
 
@@ -16,7 +17,6 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <Table>
           <TableHeader>
